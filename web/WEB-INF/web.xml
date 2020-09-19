@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>aa</servlet-name>
+        <servlet-class>disk.Welcome</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>aa</servlet-name>
+        <url-pattern>/wel</url-pattern>
+    </servlet-mapping>  <servlet>
+        <servlet-name>Comon</servlet-name>
+        <servlet-class>disk.Comon2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Comon</servlet-name>
+        <url-pattern>/como</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
+    <servlet>
+        <servlet-name>MyServletTest</servlet-name>
+        <servlet-class>disk.MyServletTest</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyServletTest</servlet-name>
+        <url-pattern>/atest</url-pattern>
+    </servlet-mapping>
+</web-app>
